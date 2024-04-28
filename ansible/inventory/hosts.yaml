@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "k3s-node01":
+          ansible_user: "mdude"
+          ansible_host: "10.255.100.31"
+        "k3s-node02":
+          ansible_user: "mdude"
+          ansible_host: "10.255.100.32"
+        "k3s-node03":
+          ansible_user: "mdude"
+          ansible_host: "10.255.100.33"
